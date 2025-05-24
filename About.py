@@ -26,13 +26,12 @@ def app():
    <br>
    While many systems rely on basic models like logistic regression or random forests, <i>AquaSentinel harnesses the power of CatBoost</i>, a state-of-the-art algorithm built for performance and accuracy. This model excels at handling complex data patterns like those in water quality parameters—pH, turbidity, TDS, and conductivity. The result? <i>Faster insights, smarter predictions, and truly actionable alerts.</i>
    <br><br>
-   Learn more at: <a href=\"https://www.aquasentinel.in\" target=\"_blank\" style=\"font-weight:bold;color:#111;\">AquaSentinel Website</a>
    </span>
    """, unsafe_allow_html=True)
 
    # Bigger image, use st.image for compatibility
    image1 = "ab.webp"  # Replace with your image path or URL
-   st.image(image1, caption="AquaSentinel in action", width=350)
+   st.image(image1, caption="“Like water through pipes, ML flows through data to power AI and Deep Learning.” ", width=350)
 
    # Typing effect: EVERY DROP HOLDS A HOPE (aqua blue, types out fully, larger and slower)
    st.markdown(
