@@ -166,7 +166,7 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
        }
        </style>
        <div style="text-align:center; margin-top:30px;">
-           <span class="typing-demo">WATER IS LIFE</span>
+           <span class="typing-demo">Every Drop Holds A Hope</span>
        </div>
        """,
        unsafe_allow_html=True
