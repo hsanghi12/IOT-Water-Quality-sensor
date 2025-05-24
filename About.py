@@ -34,26 +34,26 @@ def app():
    image1 = "ab.webp"  # Replace with your image path or URL
    st.image(image1, caption="AquaSentinel in action", width=350)
 
-   # Typing effect: EVERY DROP HOLDS A HOPE (aqua blue, types out fully)
+   # Typing effect: EVERY DROP HOLDS A HOPE (aqua blue, types out fully, larger and slower)
    st.markdown(
        """
        <style>
        @keyframes typing {
            0% { width: 0 }
-           80% { width: 25ch }
-           90% { width: 25ch }
+           80% { width: 27ch }
+           90% { width: 27ch }
            100% { width: 0 }
        }
        @keyframes blink {
            50% { border-color: transparent }
        }
        .typing-demo {
-           width: 25ch;
-           animation: typing 8s steps(25) infinite, blink .5s step-end infinite alternate;
+           width: 27ch;
+           animation: typing 12s steps(27) infinite, blink .5s step-end infinite alternate;
            white-space: nowrap;
            overflow: hidden;
            border-right: 3px solid #00c6ff;
-           font-size: 2em;
+           font-size: 2.5em;
            font-weight: normal;
            font-style: italic;
            color: #00c6ff;
