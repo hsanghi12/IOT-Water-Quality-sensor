@@ -76,9 +76,9 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
     # Replace these GitHub raw URLs with your own image links
     images = [
         "Picture 1.jpg",
-        "",
-        "https://raw.githubusercontent.com/yourusername/yourrepo/main/images/image3.jpg",
-        "https://raw.githubusercontent.com/yourusername/yourrepo/main/images/image4.jpg",
+        "UN016418.jpg.jpg",
+        "Picture 3.jpg",
+        "Harshit Sanghi Poster Template 36",
     ]
     captions = [
         "Field deployment in rural Haryana",
