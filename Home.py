@@ -1,10 +1,9 @@
 import streamlit as st
- def app():
+def app():
   
- st.title("Where Clean Water Was a Dream, AquaSentinel Makes It Reality")
- import streamlit as st
+     st.title("Where Clean Water Was a Dream, AquaSentinel Makes It Reality")
 
- st.write("""
+     st.write("""
   Imagine waking up every morning unsure if the water in your glass could harm your family. Not because you live in a desert, but because the very groundwater beneath your village carries hidden threats—high TDS, dangerous acidity, and unseen pollutants.
   
   This is not imagination. This is the daily truth for thousands of families in rural Gurugram, Haryana—and across many parts of India.
