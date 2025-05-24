@@ -6,3 +6,7 @@ Moved by the unsafe water conditions in rural India, he developed **AquaSentinel
 
 Driven by *purpose*, *curiosity*, and **दिल से देश के लिए कुछ करने का जुनून**, Harshit is proving that **innovation has no age**.
 """)
+   st.write("")
+   st.write("")
+   st.write("")
+   st.write("While many systems rely on basic models like logistic regression or random forests, AquaSentinel harnesses the power of CatBoost, a cutting-edge gradient boosting algorithm built for performance and accuracy. This model excels at handling complex data patterns like those in water quality parameters—pH, turbidity, TDS, and conductivity. The result? Faster insights, smarter predictions, and truly actionable alerts")
