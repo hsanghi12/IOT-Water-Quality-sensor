@@ -26,10 +26,10 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
    """, unsafe_allow_html=True)
 
    # Images in a row
-   image1 = "ab.webp"  # Replace with your image path or URL  # Replace with your image path or URL
-   col1= st.columns(1)
-   with col1:
-       st.image(image1, caption="AquaSentinel in action", use_column_width=True)
+    # Replace with your image path or URL  # Replace with your image path or URL
+   image1 = "ab.webp"  # Replace with your image path or URL
+   st.image(image1, caption="AquaSentinel in action", use_column_width=True)
+
   
 
    # Water is Life with typing effect
