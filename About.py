@@ -30,19 +30,19 @@ def app():
    </span>
    """, unsafe_allow_html=True)
 
-   # Smaller image, use st.image for compatibility
+   # Bigger image, use st.image for compatibility
    image1 = "ab.webp"  # Replace with your image path or URL
-   st.image(image1, caption="AquaSentinel in action", width=180)
+   st.image(image1, caption="AquaSentinel in action", width=350)
    st.caption("If the image is not loading, check the file path or use a valid image URL.")
 
-   # Typing effect: EVERY DROP HOLDS A HOPE (italic, black)
+   # Typing effect: EVERY DROP HOLDS A HOPE (italic, black, longer duration)
    st.markdown(
        """
        <style>
        @keyframes typing {
            0% { width: 0 }
-           70% { width: 22ch }
-           80% { width: 22ch }
+           70% { width: 25ch }
+           80% { width: 25ch }
            90% { width: 0 }
            100% { width: 0 }
        }
@@ -50,8 +50,8 @@ def app():
            50% { border-color: transparent }
        }
        .typing-demo {
-           width: 22ch;
-           animation: typing 5s steps(22) infinite, blink .5s step-end infinite alternate;
+           width: 25ch;
+           animation: typing 8s steps(25) infinite, blink .5s step-end infinite alternate;
            white-space: nowrap;
            overflow: hidden;
            border-right: 3px solid #111;
@@ -69,7 +69,7 @@ def app():
            text-align: center;
        }
        </style>
-       <div style="text-align:center; margin-top:30px;">
+       <div style="text-align:center; margin-top:30px; width:100%;">
            <span class="typing-demo">EVERY DROP HOLDS A HOPE</span>
        </div>
        """,
