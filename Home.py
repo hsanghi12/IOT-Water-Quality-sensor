@@ -78,7 +78,7 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
         "Picture 1.jpg",
         "UN016418.jpg.jpg",
         "Picture 3.jpg",
-        "Poster.pdf",
+        "Harshit Sanghi Poster Template 36x48_page-0001.jpg",
     ]
     captions = [
         "Field deployment in rural Haryana",
