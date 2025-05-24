@@ -66,7 +66,7 @@ Not just another fancy gadget, **यह एक शांत रक्षक ह�
         """
 Driven by *purpose*, *curiosity*, and **दिल से देश के लिए कुछ करने का जुनून**, we dream of placing AquaSentinel in every village: schools, health centers, and anganwadi. With just a bit of funding and a lot of **josh**, we can turn this dream into reality.
 
-> **क्या आप हिस्सा बनना चाहें گے इस मिशन का?**
+> **क्या आप हिस्सा बनना चाहें इस मिशन का?**
 """
     )
 
@@ -81,10 +81,10 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
         "Harshit Sanghi Poster Template 36x48_page-0001.jpg",
     ]
     captions = [
-        "Field deployment in rural Haryana",
-        "Real-time readings on smartphone",
-        "Sensor array hard at work",
-        "Community engagement workshop",
+        "Where science ends, faith begins—with every measured pour.",
+        "His future flows from that tap—let’s make it safe.",
+        "When water isn’t just water—it’s a question of survival.",
+        "Behind every graph lies a family that now drinks safer water.",
     ]
 
     cols = st.columns(4)
