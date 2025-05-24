@@ -59,6 +59,15 @@ Not just another fancy gadget, **यह एक शांत रक्षक ह�
         st.write("- Site 2: Acid levels at hazardous limits.")
         st.write("- Site 3: High dissolved solids detected.")
 
+    # Add informative links section
+    st.markdown("---")
+    st.subheader("Learn More About the Issue 🌐")
+    st.markdown("""
+- 📘 [IoT-Based Smart Water Quality Monitoring System – ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666285X2100090X)
+- 🔬 [Real-Time Water Quality Monitoring Using IoT – PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11652906/)
+- 🧪 [Water Scarcity and Public Health in Rural India – Springer](https://link.springer.com/article/10.1007/s43832-024-00145-2)
+""")
+
     # Call to action
     st.markdown("---")
     st.subheader("Join the Mission")
@@ -73,7 +82,7 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
     # Image gallery at the bottom
     st.markdown("---")
     st.subheader("Gallery: AquaSentinel in Action 📸")
-    # Replace these GitHub raw URLs with your own image links
+    # Replace these GitHub raw URLs or local image paths as needed
     images = [
         "Picture 1.jpg",
         "UN016418.jpg.jpg",
@@ -93,6 +102,7 @@ Driven by *purpose*, *curiosity*, and **दिल से देश के लि
 
 if __name__ == "__main__":
     app()
+
 
 
 
