@@ -5,11 +5,8 @@ def app():
     st.markdown(
         """
         <span style="font-size:1.2em;font-weight:bold;">Harshit Sanghi</span>, 
-        a 16-year-old student from Step by Step School, Noida, isn't just tinkering with tech—he's using it to save lives.<br><br>
-        Moved by the unsafe water conditions in rural India, he developed <b>AquaSentinel</b>, an IoT-powered system that monitors water quality in real time.<br><br>
-        Driven by purpose, curiosity, and 
-        दिल से देश के लिए कुछ करने का जुनून, 
-        Harshit is proving that innovation has no age.
+        a 16-year-old student from Step by Step School, Noida, isn't just tinkering with tech—he is building **HydroPulse Sentinel** to deliver safer water globally.<br><br>
+        Inspired by unsafe water in remote parts of India, he developed this IoT-powered system that monitors water quality live and sends alerts before families drink. Driven by purpose, curiosity, and (passion to serve the duniya), Harshit proves that innovation has no age.
         """,
         unsafe_allow_html=True
     )
@@ -31,15 +28,39 @@ def app():
     </ul>
     <br>
     While many systems rely on basic models like logistic regression or random forests, 
-    AquaSentinel harnesses the power of <b>CatBoost</b>, a state-of-the-art algorithm built for performance and accuracy. 
-    This model excels at handling complex data patterns like those in water quality parameters—pH, turbidity, TDS, and conductivity. 
-    The result? Faster insights, smarter predictions, and truly actionable alerts.
+    HydroPulse Sentinel harnesses the power of <b>CatBoost</b>, a state-of-the-art algorithm built for performance and accuracy. 
+    The model is tested with stratified samples from borewell, river, and municipal tap sources so it generalizes across **different water types**. 
+    This ensures faster insights, smarter predictions, and truly actionable alerts.
     <br><br>
     """, unsafe_allow_html=True)
 
     # Image
     image1 = "ab.webp"  # Replace with your image path or URL
     st.image(image1, caption="“Like water through pipes, ML flows through data to power AI and Deep Learning.” ", width=350)
+
+    st.markdown("---")
+    st.subheader("Developer story & research partners")
+    st.markdown(
+        """
+Harshit is a coder, designer, and field observer. He coded the CatBoost pipeline, documented sensor calibration routines, and continues field visits to remote places to validate the data. HydroPulse Sentinel partners with research organizations such as the **Central Water Commission**, **WaterAid India**, **World Resources Institute (WRI)**, and **the Delhi Jal Board Academy** to co-create intervention kits and publish actionable datasets.
+"""
+    )
+
+    st.markdown("---")
+    st.subheader("Compliance & Credentials")
+    st.markdown(
+        """
+This initiative maintains a **Delhi Jal Board Certificate** for potable water testing and follows WHO guidelines on drinking water quality. The certificate ensures calibration accuracy and proper field sampling documentation.
+"""
+    )
+
+    st.markdown("---")
+    st.image(
+        "drinking.png",
+        caption="A person drinking clean water at home — the HydroPulse Sentinel promise.",
+        use_column_width=True,
+    )
+
 
     # Typing animation with aqua blue preserved
     st.markdown(
