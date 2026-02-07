@@ -12,7 +12,7 @@ Every community, especially remote places, deserves a live sense of its water he
     st.subheader("HydroPulse Sentinel at a Glance")
     st.markdown(
         """
-Not just another gadget—HydroPulse Sentinel is the digital watchtower for your water supply. Every synthetic droplet is tracked with care, and the system learns from **groundwater, surface water, and municipal taps** by testing sample profiles as part of the model retraining pipeline.
+Not just  another gadget—HydroPulse Sentinel is the digital watchtower for your water supply. Every synthetic droplet is tracked with care, and the system learns from **groundwater, surface water, and municipal taps** by testing sample profiles as part of the model retraining pipeline.
 
 **Key features:**
 - **Real-time monitoring**: Instant ThingSpeak uploads keep a remote command center synced.
